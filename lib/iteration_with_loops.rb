@@ -10,7 +10,7 @@ def find_even_values(src)
       if src[row][element].even? 
         p src[row][element]
       end 
-      elemenet += 1 
+      element += 1 
     end 
     row += 1
   end 
